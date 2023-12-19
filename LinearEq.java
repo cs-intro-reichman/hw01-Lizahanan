@@ -9,9 +9,9 @@ public class LinearEq {
     public static void main(String[] args) {
         
     
-    double a = 2.0;
-    double b = 7.0;
-    double c = 20.0;
+    double a = Double.parseDouble(args[0]);
+    double b = Double.parseDouble(args[1]);
+    double c = Double.parseDouble(args[2]);
    double x = (c - b)/a ;
 
      {
