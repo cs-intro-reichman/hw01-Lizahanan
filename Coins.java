@@ -8,9 +8,9 @@ public class Coins {
         
 			int TotalCents = Integer.parseInt(args[0]);
         
-			int quaters = TotalCents / 25;
+			int quarters = TotalCents / 25;
 		    int cents = TotalCents % 25;
 
-		System.out.println("Use " + quaters + " quaters and " + cents + " cents ");
+		System.out.println("Use " + quarters + " quarters and " + cents + " cents ");
 	}
 }
