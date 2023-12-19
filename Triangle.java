@@ -12,9 +12,9 @@ public class Triangle {
         
         
             if ((side1 + side2 > side3) && (side2 + side3 > side1) && (side1 + side3 > side2)) {
-                System.out.println( side1 + " " + side2 + " " + side3 + ":" + " true ");
+                System.out.println( side1 + ", " + side2 + ", " + side3 + ":" + " true ");
             } else {
-                System.out.println(side1 + " " + side2 + " " + side3 +":" + "false ");
+                System.out.println(side1 + ", " + side2 + ", " + side3 + ":" + "false ");
             }
     
         
